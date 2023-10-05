@@ -1,0 +1,136 @@
+body{
+    font-family: Arial;
+}
+h1{
+    font-size: 5em;
+    text-align: center;
+}
+.text-presentation{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+span{
+    color: rgb(232, 66, 94);
+}
+.flex_parent_benefits{
+    display: flex;
+    justify-content: space-between;
+}
+.flex_enfant_benefits{
+    width: 40%;   
+}
+.Container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Container_monday{
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+}
+.img_monday{
+    width: 450px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.text_monday{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.container_tom{
+    display: grid;
+    grid-template-columns: auto 2fr;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.img_tom{
+    width: 95px;
+    height: 95px;
+    clip-path: circle(50%);
+    margin-right: 16Px;
+}
+.texte_tom{
+    grid-column: span 1;
+}
+.container_placemark_motif{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.container_placemark{
+    width: 49%;
+    border-radius: 5px;
+    text-align: left;
+}
+.img_placemark{
+    width: 150px;
+    height: 24.52px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.text_placemark{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-style: italic;
+}
+.img_motif{
+    width: 150px;
+    height: 24.52px;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: left;
+}
+.text_motif{
+    padding-right: 50px;
+    color: white;
+    font-style: italic;
+    margin-left: 50px;
+
+}
+.color{
+    background-color: rgb(27, 27, 27);
+}
+.color_1{
+    background-color: rgb(27, 27, 27);
+}
+.container_tom_bas{
+    display: grid;
+    grid-template-columns: auto 2fr;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: start;
+}
+.img_tom_bas{
+    width: 65px;
+    height: 65px;
+    clip-path: circle(50%);
+    margin-right: 16Px;
+}
+img{
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+    transform: rotate(3deg);
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
